@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/logo3.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <body>
+    <!-- scroll-up-button -->
+    <div id="scroll-up-btn" class="flex items-center justify-center">
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <!-- navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="stuff flex items-center between">  
+          <!-- logo -->
+          <div class="logo">
+            <a href="#" class="name flex items-center justify-center" id="name-2"><span>PRANSHU</span><span class="name" id="name-2">BHAMBRI</span></a>
+          </div>
+          <!-- nav links -->
+          <ul class="nav-list flex items-center" id="nav-list">
+            <a class="flex name" id="nav-home" href="#" onclick="hide()">PRANSHU BHAMBRI</a>
+            <li><a class="flex" id="nav-home" href="#home" onclick="hide()">Home</a></li>
+            <li><a class="flex" href="#about" onclick="hide()">About</a></li>
+            <li><a class="flex" href="#skills" onclick="hide()">Skills</a></li>
+            <li><a class="flex" href="#achievements" onclick="hide()">Achievements</a></li>
+            <!-- <li><a class="flex" href="#projects">Projects</a></li> -->
+            <li><a class="flex" href="#qualifications" onclick="hide()">Qualifications</a></li>
+            <li><a class="flex" href="#contact" onclick="hide()">Contact</a></li>
+          </ul>
+          <!-- hamburger menu -->
+          <div class="ham">
+            <i class="fa-solid fa-bars" id="ham"></i>
+          </div>
+          <!-- cross -->
+          <div class="cross">
+            <i class="fa-solid fa-xmark" id="cross"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- home section starts -->
+    <section class="home home-bg" id="home">
+      <div class="home-content">
+        <h2 class="intro intro-h2" id="intro-h2">Hi,</h2>
+        <h1 class="intro intro-h1" id="intro-h1">I am PRANSHU BHAMBRI</h1>
+        <span class="intro type"></span>
+        <!-- links follow -->
+        <div class="icons" id="icons">
+            <a href="https://www.linkedin.com/in/pranshu-bhambri-136695219/" class="icon linkedin fab fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/Pranshu-Bhambri" class="icon github fab fa-github" target="_blank"></a>
+            <a href="mailto:pranshu.bhambri@gmail.com" class="icon mail fa-solid fa-envelope" target="_blank"></a>
+        </div>
+        <!-- contact button -->
+        <a href="#contact" id="contact-btn">CONTACT ME</a>
+      </div>
+    </section>
+    <!-- home section ends -->
+    <!-- about section starts -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h1 class="rightH1" id="aboutH1">ABOUT ME</h1>
+        <div class="about-main flex items-center justify-center between">
+          <div class="img1">
+            <img id="img1" src="images/webimg7.jpg" alt="img1">
+          </div>
+          <!-- introduction -->
+          <div class="about-me" id="about-me">
+              <p>Hi! I am Pranshu Bhambri, living in Inida.</p> 
+              <br>
+              <p>A self-driven Information Technology student with wish to learn more about the field of computer software. Currently learing more about Web Development and new technologies.</p>
+              <br>
+              <p>Hands on experience on various programming languages, having good problem-solving skills and ability to perform well in a team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+    <!-- skills section starts -->
+    <section class="skills" id="skills">
+      <div class="skills-content">
+        <h1 id="skillsH1">SKILLS</h1>
+        <div class="skill-main flex items-center justify-center between">
+
+          <div class="skill-box">
+
+            <div class="skill-item">
+              <div class="skill flex items-center">
+                <span>C/C++</span>
+              </div>
+              <div class="line C"></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill flex items-center">
+                <span>Python</span>
+              </div>
+              <div class="line Python"></div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill flex items-center">
+                <span>MySQL</span>
+              </div>
+              <div class="line MySQL"></div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill flex items-center">
+                <span>HTML</span>
+              </div>
+              <div class="line HTML"></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill flex items-center">
+                <span>CSS</span>
+              </div>
+              <div class="line CSS"></div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill flex items-center">
+                <span>JavaScript</span>
+              </div>
+              <div class="line JavaScript"></div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill flex items-center">
+                <span>Photo/Video Editing</span>
+              </div>
+              <div class="line Editing"></div>
+            </div>
+
+          </div>
+          <div class="img2">
+            <img id="img2" src="images/webimg6.jpg" alt="img2">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+    <!-- achievements section starts -->
+    <section class="achievements" id="achievements">
+      <div class="achievements-content">
+        <h1 class="rightH1" id="achievementsH1">CERTIFICATIONS</h1>
+        <div class="flex items-center justify-center between">
+          <!-- links follow -->
+          <div class="list">
+            <li>
+              Goldman Sachs
+              <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_8ahmrndzdYvounirL_1629129756077_completion_certificate.pdf" target="_blank">
+              <span>Certificate Of Completion</span>
+              </a>
+              on Cracked Leaked Password Database
+            </li>
+            </div>
+          <div class="img3">
+            <img id="img3" src="images/ach2.jpg" alt="img3">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- achievements section ends -->
+    <!-- qualifications section starts -->
+    <section class="qualifications" id="qualifications">
+      <div class="qualifications-content">
+        <h1 id="qualificationsH1">QUALIFICATIONS</h1>
+        <div class="qualify flex items-center justify-center between">
+          <div class="school flex flex-col">
+            <img id="school-img" src="images/school.jpg" alt="school">
+          </div>
+          <div class="arrow">
+            <i class="fa-solid fa-angles-right" id="arrow"></i>
+          </div>
+          <div class="college flex flex-col">
+            <img id="college-img" src="images/college1.jpg" alt="college">
+          </div>
+
+            <div class="school-low flex flex-col">
+              <img id="school-img" src="images/school.jpg" alt="school">
+              <div class="school-info flex flex-col items-center">BAL BHARATI PUBLIC SCHOOL, ROHINI
+                <div class="s-info">---Senior Secondary Schooling---</div>
+                <span>-2020</span>
+              </div>
+            </div>
+
+            <div class="arrow-low">
+              <i class="fa-solid fa-angles-right" id="arrow"></i>
+            </div>
+
+            <div class="college-low flex flex-col">
+              <img id="college-img" src="images/college1.jpg" alt="college">
+              <div class="college-info flex flex-col items-center">MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY, ROHINI
+                <div class="c-info">---B.Tech in Information Technology---</div>
+                <span>2020-2024</span>
+              </div>
+            </div>
+
+        </div>
+        <div class="qualify low flex justify-center between">
+          <div class="school-info flex flex-col items-center">BAL BHARATI PUBLIC SCHOOL, ROHINI
+            <div class="s-info">---Senior Secondary Schooling---</div>
+            <span>-2020</span>
+          </div>
+          <div class="college-info flex flex-col items-center">MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY, ROHINI
+            <div class="c-info">---B.Tech in Information Technology---</div>
+            <span>2020-2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- qualifications section ends -->
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <div class="contact-content">
+        <h1 class="rightH1" id="contactH1">CONTACT ME</h1>
+        <div class="box flex items-center justify-center between">
+          <div class="contact-container flex justify-center">
+            <form class="c-form flex flex-col items-center" id="c-form" action="https://formsubmit.co/b0144d2eef7e30f3752fcf541aba9ffc" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="one-line flex">
+                <input class="form-input in-name" type="text" id="name" name="name" placeholder="Name" required>
+                <input class="form-input in-mail" type="email" id="email"  name="email" placeholder="Email" required>
+              </div>
+              <div class="field flex">
+                <input class="form-input" type="text" id="subject" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="field flex">
+                <textarea class="form-input" name="message" id="textbox" cols="30" rows="10" placeholder="Message" required></textarea>
+              </div>
+              <button class="btn" type="submit">Send</button>
+              <!-- <input type="hidden" name="_next" value="https://www.google.com"> -->
+            </form>
+          </div>
+          <div class="mail-container">
+            <div class="mail-bg">
+              <img id="mail-bg" src="images/email1.jpg" alt="email">
+            </div>
+            <div class="mail-i flex flex-col items-center">My Email
+              <span>pranshu.bhambri@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+    <!-- footer -->
+    <footer class="footer">
+      <p>Created by <span>PRANSHU BHAMBRI</span> | &copy All Rights Reserved</p>
+    </footer>
+    <script src="javascript/index.js"></script>
+    <script src="https://kit.fontawesome.com/0980d5bbf3.js" crossorigin="anonymous"></script>
+  </body>
+</html>
