@@ -7,10 +7,6 @@ let cross = document.querySelector(".cross");
 let navbar = document.querySelector(".navbar");
 let navList = document.querySelector(".nav-list");
 
-// window.addEventListener('load',()=>{
-//     loader.style.display="none";
-// })
-
 // scroll related activities
 let scrollBtn = document.getElementById("scroll-up-btn");
 window.addEventListener("scroll", () => {
@@ -78,7 +74,7 @@ cross.addEventListener("click", () => {
 
 //   const formData= new formData(this);
 
-//   fetch("https://formsubmit.co/pranshu.bhambri@gmail.com", {
+//   fetch("https://formsubmit.co/b0144d2eef7e30f3752fcf541aba9ffc", {
 //     method: "POST",
 //     headers: { 
 //         'Content-Type': 'application/json',
