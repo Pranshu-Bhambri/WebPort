@@ -1014,6 +1014,7 @@ textarea {
   .mail-container {
     width: 50%;
     text-align: center;
+    margin-top: 18%;
   }
 
   .mail-i {
@@ -1040,7 +1041,7 @@ textarea {
   }
   
   .name {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .ham {
