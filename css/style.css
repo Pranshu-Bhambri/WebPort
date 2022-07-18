@@ -1094,10 +1094,10 @@ textarea {
   .about,
   .skills,
   .achievements{
-    min-height: 75vh;
+    min-height: 65vh;
   }
 
-  .about-content{
+  .about{
     margin-top: 47vh;
   }
 
@@ -1120,6 +1120,10 @@ textarea {
 
   .about-me {
     font-size: 0.9rem;
+  }
+
+  #achievements {
+    padding-bottom: 0px;
   }
 
   .list {
