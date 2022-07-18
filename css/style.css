@@ -541,8 +541,8 @@ textarea {
 #scroll-up-btn {
   transition: var(--transit);
   position: fixed;
-  bottom: 20%;
-  right: 3%;
+  bottom: 16%;
+  right: 2.2%;
   font-size: 1.5rem;
   width: 2.5rem;
   height: 2.5rem;
@@ -692,7 +692,7 @@ textarea {
 
   #scroll-up-btn {
     /* bottom: 21%; */
-    right: 2.2%;
+    /* right: 2.2%; */
     font-size: 1.4rem;
     width: 2.4rem;
     height: 2.4rem;
@@ -846,7 +846,7 @@ textarea {
   }
 
   #scroll-up-btn {
-    right: 1.2%;
+    right: 2%;
     font-size: 1.2rem;
     width: 2.2rem;
     height: 2.2rem;
@@ -1126,9 +1126,9 @@ textarea {
     font-size: 0.9rem;
   }
 
-  /* #achievements {
-    padding-bottom: 0px;
-  } */
+  #achievements {
+    padding-bottom: 140px;
+  }
 
   .list {
     font-size: 0.9rem;
@@ -1208,12 +1208,12 @@ textarea {
 
 @media screen and (max-height: 410px) {
   #scroll-up-btn {
-    bottom: 25%;
+    bottom: 20%;
   }
 }
 
 @media screen and (max-height: 300px) {
   #scroll-up-btn {
-    bottom: 30%;
+    bottom: 24%;
   }
 }
