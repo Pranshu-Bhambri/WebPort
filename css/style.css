@@ -1086,9 +1086,12 @@ textarea {
   .about-content,
   .skills-content,
   .achievements-content,
-  .qualifications-content,
-  .contact-content {
-    min-height: 100vh;
+  .qualifications-content{
+    min-height: 70vh;
+  }
+
+  #about{
+    padding-top: 47vh;
   }
 
   #achievements {
