@@ -229,7 +229,6 @@
 .achievements-content,
 .qualifications-content,
 .contact-content {
-  /* min-height: 100vh; */
   margin-left: 8%;
   margin-right: 8%;
 }
@@ -871,10 +870,6 @@ textarea {
     width: 35%;
   }
 
-  .home {
-    min-height: auto;
-  }
-
   .home-content {
     padding-top: 125px;
   }
@@ -1026,6 +1021,10 @@ textarea {
 }
 
 @media screen and (max-width: 500px) {
+  .home {
+    min-height: auto;
+  }
+  
   .name {
     font-size: 1rem;
   }
@@ -1081,21 +1080,6 @@ textarea {
   .qualifications,
   .contact {
     padding: 75px 0;
-  }
-
-  .about-content,
-  .skills-content,
-  .achievements-content,
-  .qualifications-content{
-    min-height: 70vh;
-  }
-
-  #about{
-    padding-top: 47vh;
-  }
-
-  #achievements {
-    padding-bottom: 0px;
   }
 
   .about h1,
