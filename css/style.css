@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&family=Varela+Round&display=swap");
 
 #achievements {
-  padding-bottom: 150px;
+  padding-bottom: 180px;
 }
 
 .about,
@@ -309,7 +309,7 @@
 }
 
 .skill-item .C::before {
-  width: 60%;
+  width: 55%;
 }
 
 .skill-item .Python::before {
@@ -317,11 +317,11 @@
 }
 
 .skill-item .MySQL::before {
-  width: 55%;
+  width: 60%;
 }
 
 .skill-item .HTML::before {
-  width: 80%;
+  width: 85%;
 }
 
 .skill-item .CSS::before {
@@ -901,14 +901,23 @@ textarea {
     letter-spacing: 0.1rem;
   }
 
+  .about-main{
+    flex-direction: column-reverse;
+  }
+
   .img1,
   .img2,
   .img3 {
-    display: none;
+    max-width: 80%;
+    margin-top: 10%;
   }
 
   .about-me {
     max-width: 100%;
+  }
+
+  .skill-main, .achievements-main{
+    flex-direction: column;
   }
 
   .skill-box {
