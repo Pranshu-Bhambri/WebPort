@@ -909,7 +909,7 @@ textarea {
   .img2,
   .img3 {
     max-width: 80%;
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
   .about-me {
@@ -1089,7 +1089,16 @@ textarea {
   .qualifications,
   .contact {
     padding: 75px 0;
-    min-height: 70vh;
+  }
+
+  .about,
+  .skills,
+  .achievements{
+    min-height: 75vh;
+  }
+
+  .about-content{
+    margin-top: 47vh;
   }
 
   .about h1,
