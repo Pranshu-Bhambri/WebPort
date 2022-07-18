@@ -1094,7 +1094,11 @@ textarea {
   .about,
   .skills,
   .achievements{
-    min-height: 65vh;
+    min-height: 75vh;
+  }
+
+  .contact{
+    margin-top: 10vh;
   }
 
   .about{
@@ -1122,9 +1126,9 @@ textarea {
     font-size: 0.9rem;
   }
 
-  #achievements {
+  /* #achievements {
     padding-bottom: 0px;
-  }
+  } */
 
   .list {
     font-size: 0.9rem;
