@@ -1089,6 +1089,7 @@ textarea {
   .qualifications,
   .contact {
     padding: 75px 0;
+    min-height: 70vh;
   }
 
   .about h1,
