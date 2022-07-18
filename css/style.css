@@ -1035,7 +1035,7 @@ textarea {
   } */
 
   .home-content {
-    padding-top: 225px;
+    padding-top: 200px;
     padding-bottom: 50px;
   }
   
@@ -1106,9 +1106,9 @@ textarea {
     margin-top: 10vh;
   }
 
-  .about{
+  /* .about{
     margin-top: 47vh;
-  }
+  } */
 
   .about h1,
   .skills h1,
@@ -1132,7 +1132,7 @@ textarea {
   }
 
   #achievements {
-    padding-bottom: 105px;
+    padding-bottom: 90px;
   }
 
   .list {
