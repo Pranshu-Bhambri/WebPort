@@ -333,7 +333,7 @@
 }
 
 .skill-item .Editing::before {
-  width: 85%;
+  width: 60%;
 }
 
 .qualifications h1 {
@@ -448,6 +448,10 @@
 .one-line,
 .field {
   width: 100%;
+}
+
+.field .btn {
+  display: none !important;
 }
 
 .in-name {
@@ -690,6 +694,10 @@ textarea {
     font-size: 3.5rem;
   }
 
+  .c-form .btn {
+    padding: 0.5rem 1.7rem;
+  }
+
   #scroll-up-btn {
     /* bottom: 21%; */
     /* right: 2.2%; */
@@ -901,14 +909,14 @@ textarea {
     letter-spacing: 0.1rem;
   }
 
-  .about-main{
+  .about-main {
     flex-direction: column-reverse;
   }
 
   .img1,
   .img2,
   .img3 {
-    max-width: 100%;
+    max-width: 90%;
     margin-top: 20%;
   }
 
@@ -916,7 +924,8 @@ textarea {
     max-width: 100%;
   }
 
-  .skill-main, .achievements-main{
+  .skill-main,
+  .achievements-main {
     flex-direction: column;
   }
 
@@ -995,26 +1004,75 @@ textarea {
   .contact-container {
     width: 100%;
     margin-bottom: 10%;
+    background: none;
+    box-shadow: none;
+  }
+
+  /* .c-form input,
+textarea {
+  outline: none;
+  color: var(--main-color);
+  background-color: #4971aab5;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 1rem;
+  padding: 8px;
+  margin-bottom: 2%;
+  font-family: "Ubuntu", sans-serif;
+} */
+
+  ::placeholder {
+    font-size: 1rem;
+    color: gray;
+  }
+
+  .c-form {
+    width: 100%;
+    margin: 0% 0%;
   }
 
   .c-form input,
   textarea {
-    font-size: 1rem;
-    padding: 8px;
-  }
-
-  ::placeholder {
-    font-size: 1rem;
+    background: none;
+    /* background-color: #4971aad0; */
+    font-size: 0.9rem;
+    border-radius: 4px;
+    padding: 6px;
+    border: 2px solid lightgray;
+    /* box-shadow: 0px 0.1px 6px black; */
   }
 
   .c-form .btn {
     font-size: 1rem;
+    border-radius: 6px;
+    padding: 0.4rem 1.5rem;
+    background-color: #007cb6bc;
+    border: 0px;
+    color: white;
+    font-weight: normal;
+  }
+
+  .c-form .btn:hover {
+    color: white;
+    /* color: rgba(0, 0, 0, 0.8);  */
+    background-color: #007bb6;
+    border: 0px;
+    box-shadow: 0px 0px 0px;
+  }
+
+  .field .btn {
+    display: block !important;
+  }
+
+  .drop {
+    display: none !important;
   }
 
   .mail-container {
     width: 50%;
     text-align: center;
-    margin-top: 18%;
+    margin-top: 12%;
   }
 
   .mail-i {
@@ -1039,7 +1097,7 @@ textarea {
     padding-top: 200px;
     padding-bottom: 50px;
   }
-  
+
   .name {
     font-size: 1.05rem;
   }
@@ -1099,11 +1157,11 @@ textarea {
 
   .about,
   .skills,
-  .achievements{
+  .achievements {
     min-height: 75vh;
   }
 
-  .contact{
+  .contact {
     margin-top: 10vh;
   }
 
@@ -1170,9 +1228,9 @@ textarea {
     font-size: 2.3rem;
   }
 
-  .c-form {
+  /* .c-form {
     margin: 3% 0%;
-  }
+  } */
 
   .c-form input,
   textarea {
