@@ -1008,20 +1008,6 @@ textarea {
     box-shadow: none;
   }
 
-  /* .c-form input,
-textarea {
-  outline: none;
-  color: var(--main-color);
-  background-color: #4971aab5;
-  width: 100%;
-  border: 2px solid black;
-  border-radius: 6px;
-  font-size: 1rem;
-  padding: 8px;
-  margin-bottom: 2%;
-  font-family: "Ubuntu", sans-serif;
-} */
-
   ::placeholder {
     font-size: 1rem;
     color: gray;
@@ -1035,12 +1021,11 @@ textarea {
   .c-form input,
   textarea {
     background: none;
-    /* background-color: #4971aad0; */
+    color: black;
     font-size: 0.9rem;
     border-radius: 4px;
     padding: 6px;
     border: 2px solid lightgray;
-    /* box-shadow: 0px 0.1px 6px black; */
   }
 
   .c-form .btn {
