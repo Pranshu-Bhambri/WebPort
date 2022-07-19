@@ -7,7 +7,7 @@
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: #f3e4cd40;
+    /* background-color: #f3e4cd40; */
 }
 
 :root {
