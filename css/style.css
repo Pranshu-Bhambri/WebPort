@@ -916,6 +916,7 @@ textarea {
   .img1,
   .img2,
   .img3 {
+    display: none;
     max-width: 90%;
     margin-top: 20%;
   }
@@ -1025,7 +1026,9 @@ textarea {
     font-size: 0.9rem;
     border-radius: 4px;
     padding: 6px;
-    border: 2px solid lightgray;
+    /* background-color: #4971aab5; */
+    /* border: 2px solid lightgray; */
+    border: 2px solid black;
   }
 
   .c-form .btn {
