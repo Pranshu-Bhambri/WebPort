@@ -1,7 +1,5 @@
 let html = document.getElementsByTagName("html")[0];
-let form = document.getElementById("c-form");
-let loader = document.getElementById("preloader");
-let logo = document.querySelector(".logo");
+// let form = document.getElementById("c-form");
 let ham = document.querySelector(".ham");
 let cross = document.querySelector(".cross");
 let navbar = document.querySelector(".navbar");
