@@ -329,7 +329,19 @@
 }
 
 .skill-item .JavaScript::before {
-  width: 35%;
+  width: 55%;
+}
+
+.skill-item .Mongo::before {
+  width: 60%;
+}
+
+.skill-item .Node::before {
+  width: 60%;
+}
+
+.skill-item .React::before {
+  width: 45%;
 }
 
 .skill-item .Editing::before {
@@ -408,6 +420,10 @@
   text-align: left;
   font-size: 1.1rem;
   font-family: "Ubuntu", sans-serif;
+}
+
+.list li{
+  margin-bottom: 6px;
 }
 
 .list a:hover {
