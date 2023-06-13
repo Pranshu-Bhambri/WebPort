@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu&family=Varela+Round&display=swap");
 
-#achievements {
-  padding-bottom: 180px;
-}
-
 .about,
 .skills,
+.projects,
 .achievements,
 .qualifications,
 .contact {
@@ -18,6 +15,14 @@
 .qualifications,
 .contact {
   padding: 100px 0;
+}
+
+.projects {
+  padding-top: 100px;
+}
+
+.projects-main {
+  padding-bottom: 100px;
 }
 
 .navbar {
@@ -48,7 +53,7 @@
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
-  padding-right: 4rem;
+  padding-right: 3.5rem;
   letter-spacing: 0.05rem;
   transition: var(--transit);
 }
@@ -226,6 +231,7 @@
 
 .about-content,
 .skills-content,
+.projects-content,
 .achievements-content,
 .qualifications-content,
 .contact-content {
@@ -235,6 +241,7 @@
 
 .about h1,
 .skills h1,
+.projects h1,
 .achievements h1,
 .qualifications h1,
 .contact h1 {
@@ -309,7 +316,7 @@
 }
 
 .skill-item .C::before {
-  width: 55%;
+  width: 70%;
 }
 
 .skill-item .Python::before {
@@ -317,7 +324,7 @@
 }
 
 .skill-item .MySQL::before {
-  width: 60%;
+  width: 55%;
 }
 
 .skill-item .HTML::before {
@@ -325,11 +332,11 @@
 }
 
 .skill-item .CSS::before {
-  width: 70%;
+  width: 75%;
 }
 
 .skill-item .JavaScript::before {
-  width: 55%;
+  width: 70%;
 }
 
 .skill-item .Mongo::before {
@@ -346,6 +353,91 @@
 
 .skill-item .Editing::before {
   width: 60%;
+}
+
+/* .projects-main {
+  height: 500px;
+} */
+
+#proj1,
+#proj2,
+#proj3,
+#proj4 {
+  box-shadow: 0px 4px 12px var(--sec-color);
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+}
+
+.pr-title {
+  font-size: 18px;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+
+/* .proj1-2, .proj3-4 {
+  max-width: 35%;
+} */
+
+/* #proj1, #proj2, #proj3, #proj4 {
+  width: 100%;
+  margin-bottom: 20px;
+} */
+
+.pr-box {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+}
+
+.pr-box .btns{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pr-btn {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+  background-color: #50c46b;
+  /* opacity: 0;
+  pointer-events: none; */
+}
+
+#proj1Btn1 {
+  margin-bottom: 10px;
+}
+
+.proj3-4 {
+  margin-top: 60px;
+}
+
+.pr-box-out {
+  transition: var(--transit);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.pr-box-hover {
+  transition: var(--transit);
+  pointer-events: auto;
+  /* opacity: 1; */
+}
+
+#proj1:hover, #proj2:hover, #proj3:hover, #proj4:hover {
+  transition: var(--transit);
+  opacity: 0.7;
+}
+
+#achievements {
+  padding-bottom: 180px;
 }
 
 .qualifications h1 {
@@ -663,7 +755,7 @@ textarea {
   .nav-list li {
     font-size: 1rem;
     letter-spacing: 0rem;
-    padding-right: 3rem;
+    padding-right: 2.5rem;
   }
 
   .intro-h2 {
@@ -686,6 +778,7 @@ textarea {
 
   .about h1,
   .skills h1,
+  .projects h1,
   .achievements h1,
   .qualifications h1,
   .contact h1 {
@@ -698,6 +791,10 @@ textarea {
 
   .list {
     font-size: 1rem;
+  }
+
+  .pr-box {
+    max-width: 400px;
   }
 
   #school-img,
@@ -806,6 +903,7 @@ textarea {
 
   .about h1,
   .skills h1,
+  .projects h1,
   .achievements h1,
   .qualifications h1,
   .contact h1 {
@@ -818,6 +916,15 @@ textarea {
 
   .skill span {
     font-size: 0.9rem;
+  }
+
+  .pr-box {
+    max-width: 300px;
+  }
+
+  .pr-btn {
+    font-size: 14px;
+    padding: 11px 22px;
   }
 
   #school-img,
@@ -918,6 +1025,7 @@ textarea {
 
   .about h1,
   .skills h1,
+  .projects h1,
   .achievements h1,
   .qualifications h1,
   .contact h1 {
@@ -960,6 +1068,28 @@ textarea {
 
   .list {
     width: 100%;
+  }
+
+  .pr-box {
+    max-width: 350px;
+  }
+
+  .proj1-2, .proj3-4 {
+    flex-direction: column;
+  }
+
+  .proj3-4 {
+    margin-top: 0;
+  }
+
+  .pr-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .pr-title {
+    font-size: 16px;
+    margin-bottom: 36px;
   }
 
   .qualify {
@@ -1153,6 +1283,7 @@ textarea {
 
   .about,
   .skills,
+  .projects,
   .achievements,
   .qualifications,
   .contact {
@@ -1175,6 +1306,7 @@ textarea {
 
   .about h1,
   .skills h1,
+  .projects h1,
   .achievements h1,
   .qualifications h1,
   .contact h1 {
@@ -1200,6 +1332,10 @@ textarea {
 
   .list {
     font-size: 0.9rem;
+  }
+
+  .pr-box {
+    max-width: 300px;
   }
 
   .school-low,
