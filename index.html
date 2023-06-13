@@ -28,8 +28,8 @@
             <li><a class="flex" id="nav-home" href="#home" onclick="hide()">Home</a></li>
             <li><a class="flex" href="#about" onclick="hide()">About</a></li>
             <li><a class="flex" href="#skills" onclick="hide()">Skills</a></li>
+            <li><a class="flex" href="#projects" onclick="hide()">Projects</a></li>
             <li><a class="flex" href="#achievements" onclick="hide()">Achievements</a></li>
-            <!-- <li><a class="flex" href="#projects">Projects</a></li> -->
             <li><a class="flex" href="#qualifications" onclick="hide()">Qualifications</a></li>
             <li><a class="flex" href="#contact" onclick="hide()">Contact</a></li>
           </ul>
@@ -61,6 +61,7 @@
       </div>
     </section>
     <!-- home section ends -->
+
     <!-- about section starts -->
     <section class="about" id="about">
       <div class="about-content">
@@ -81,6 +82,7 @@
       </div>
     </section>
     <!-- about section ends -->
+
     <!-- skills section starts -->
     <section class="skills" id="skills">
       <div class="skills-content">
@@ -133,31 +135,31 @@
 
             <div class="skill-item">
               <div class="skill flex items-center">
-                <span>MongoDB/Mongoose</span>
+                <span>MongoDB-Mongoose</span>
               </div>
               <div class="line Mongo"></div>
             </div>
 
             <div class="skill-item">
               <div class="skill flex items-center">
-                <span>Node JS/Express JS</span>
+                <span>Node.js-Express.js</span>
               </div>
               <div class="line Node"></div>
             </div>
 
             <div class="skill-item">
               <div class="skill flex items-center">
-                <span>React JS</span>
+                <span>React.js</span>
               </div>
               <div class="line React"></div>
             </div>
             
-            <div class="skill-item">
+            <!-- <div class="skill-item">
               <div class="skill flex items-center">
                 <span>Photo/Video Editing</span>
               </div>
               <div class="line Editing"></div>
-            </div>
+            </div> -->
 
           </div>
           <div class="img2">
@@ -167,11 +169,81 @@
       </div>
     </section>
     <!-- skills section ends -->
+
+    <!-- projects section starts -->
+    <section class="projects" id="projects">
+      <div class="projects-content">
+        <h1 class="rightH1" id="projectsH1">PROJECTS</h1>
+        <div class="projects-main flex flex-col justify-center between">
+          
+          <div class="proj1-2 flex items-center between">
+            <div class="prj flex flex-col items-center">
+              <div class="pr-box" data-targets="proj1Btn1 proj1Btn2">
+                <img id="proj1" src="images/Weather-Web.png" alt="project1">
+                <div class="btns flex flex-col">
+                  <a href="https://dead-tan-chipmunk-wrap.cyclic.app/" target="_blank">
+                    <button id="proj1Btn1" parent-target="proj1" class="pr-btn pr-box-out">Website</button>
+                  </a>
+                  <a href="https://github.com/Pranshu-Bhambri/WeatherApp" target="_blank">
+                    <button id="proj1Btn2" parent-target="proj1" class="pr-btn pr-box-out">GitHub Repo</button>
+                  </a>
+                </div>
+              </div>              
+              <p class="pr-title">Weather Forecasting Website</p>
+            </div>
+
+            <div class="prj flex flex-col items-center">
+              <div class="pr-box" data-targets="proj2Btn">
+                <img id="proj2" src="images/Banking-Web.png" alt="project2">
+                <div class="btns">
+                  <a href="https://github.com/Pranshu-Bhambri/TSF-Banking-System" target="_blank">
+                    <button id="proj2Btn" parent-target="proj2" class="pr-btn pr-box-out">GitHub Repo</button>
+                  </a>
+                </div>
+              </div>
+              <p class="pr-title">Basic Banking Website</p>
+            </div>
+          </div>
+
+          <div class="proj3-4 flex items-center between">
+            <div class="prj flex flex-col items-center">
+              <div class="pr-box" data-targets="proj3Btn">
+                <img id="proj3" src="images/Amazon-Clone.png" alt="project3">
+                <div class="btns">
+                  <a href="https://github.com/Pranshu-Bhambri/Amazon-Clone" target="_blank">
+                    <button id="proj3Btn" parent-target="proj3" class="pr-btn pr-box-out">GitHub Repo</button>
+                  </a>
+                </div>
+              </div>
+              <p class="pr-title">Amazon Clone</p>
+            </div>
+
+            <div class="prj flex flex-col items-center">
+              <div class="pr-box" data-targets="proj4Btn">
+                <img id="proj4" src="images/Electron-App.png" alt="project4">
+                <div class="btns">
+                  <a href="https://github.com/Pranshu-Bhambri/Dynamic-QR-Test" target="_blank">
+                    <button id="proj4Btn" parent-target="proj4" class="pr-btn pr-box-out">GitHub Repo</button>
+                  </a>
+                </div>
+              </div>              
+              <p class="pr-title">Random QR Code Generator</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- projects section ends -->
+
     <!-- achievements section starts -->
     <section class="achievements" id="achievements">
       <div class="achievements-content">
-        <h1 class="rightH1" id="achievementsH1">CERTIFICATIONS</h1>
+
+        <h1 id="achievementsH1">CERTIFICATIONS</h1>
         <div class="achievements-main flex items-center justify-center between">
+
           <!-- links follow -->
           <div class="list">
             <li>
@@ -199,10 +271,11 @@
       </div>
     </section>
     <!-- achievements section ends -->
+
     <!-- qualifications section starts -->
     <section class="qualifications" id="qualifications">
       <div class="qualifications-content">
-        <h1 id="qualificationsH1">QUALIFICATIONS</h1>
+        <h1 class="rightH1" id="qualificationsH1">QUALIFICATIONS</h1>
         <div class="qualify flex items-center justify-center between">
           <div class="school flex flex-col">
             <img id="school-img" src="images/school.jpg" alt="school">
@@ -248,10 +321,11 @@
       </div>
     </section>
     <!-- qualifications section ends -->
+
     <!-- contact section starts -->
     <section class="contact" id="contact">
       <div class="contact-content">
-        <h1 class="rightH1" id="contactH1">CONTACT ME</h1>
+        <h1 id="contactH1">CONTACT ME</h1>
         <div class="box flex items-center justify-center between">
           <div class="contact-container flex justify-center">
             <form class="c-form flex flex-col items-center" id="c-form" action="https://formsubmit.co/b0144d2eef7e30f3752fcf541aba9ffc" method="POST">
@@ -285,6 +359,7 @@
       </div>
     </section>
     <!-- contact section ends -->
+
     <!-- footer -->
     <footer class="footer">
       <p>Created by <span>PRANSHU BHAMBRI</span> | &copy All Rights Reserved</p>
