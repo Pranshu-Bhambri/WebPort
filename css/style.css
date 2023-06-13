@@ -522,7 +522,12 @@
   text-decoration: underline;
 }
 
-.list span {
+.span-ul{
+  text-decoration: underline;
+  text-decoration-color: #0000ee;
+}
+
+.decr {
   color: var(--main-color);
 }
 
