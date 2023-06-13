@@ -67,6 +67,43 @@ cross.addEventListener("click", () => {
   hide();
 });
 
+let prBoxes= document.querySelectorAll(".pr-box");
+
+let prBtns= document.querySelectorAll(".pr-btn");
+
+prBoxes.forEach(box => {
+  box.addEventListener('mouseover', function(event) {
+    // box.style.opacity= 0.7;
+    // Get the target element ID from the data attribute
+    const targetIds = box.getAttribute("data-targets").split(' ');
+
+    targetIds.forEach(targetId => {
+      const targetElement= document.getElementById(targetId);
+      targetElement.classList.remove("pr-box-out");
+      targetElement.classList.add("pr-box-hover");
+    });
+    console.log(`over ${targetIds}`);
+  });
+
+  box.addEventListener('mouseout', function(event) {
+    // Get the target element ID from the data attribute
+    const targetIds = box.getAttribute("data-targets").split(' ');
+    
+    targetIds.forEach(targetId => {
+      const targetElement= document.getElementById(targetId);
+      targetElement.classList.remove("pr-box-hover");
+      targetElement.classList.add("pr-box-out");
+    })
+    console.log(`out ${targetIds}`);
+  });
+});
+
+// scroll-up button function
+scrollBtn.addEventListener("click", () => {
+  document.documentElement.scrollTop = 0;
+});
+
+
 // form.addEventListener('submit',function(e){
 //   e.preventDefault();
 
@@ -89,7 +126,4 @@ cross.addEventListener("click", () => {
 //     .catch(error => console.log(error));
 // });
 
-// scroll-up button function
-scrollBtn.addEventListener("click", () => {
-  document.documentElement.scrollTop = 0;
-});
+
