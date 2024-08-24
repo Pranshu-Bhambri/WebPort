@@ -320,11 +320,11 @@
 }
 
 .skill-item .Python::before {
-  width: 40%;
+  width: 70%;
 }
 
 .skill-item .MySQL::before {
-  width: 55%;
+  width: 70%;
 }
 
 .skill-item .HTML::before {
@@ -332,23 +332,23 @@
 }
 
 .skill-item .CSS::before {
-  width: 75%;
+  width: 85%;
 }
 
 .skill-item .JavaScript::before {
-  width: 70%;
+  width: 80%;
 }
 
 .skill-item .Mongo::before {
-  width: 60%;
+  width: 70%;
 }
 
 .skill-item .Node::before {
-  width: 60%;
+  width: 70%;
 }
 
 .skill-item .React::before {
-  width: 45%;
+  width: 70%;
 }
 
 .skill-item .Editing::before {
